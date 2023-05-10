@@ -1,6 +1,4 @@
-# Project Name
-> Outline a brief description of your project.
-
+# Lending Club Case Study EDA
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -8,45 +6,43 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- The aim of this project is to identify patterns which indicate if a person is likely to default.
+- Based on this identification we can take actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc.
+- The data given, contains information about past loan applicants and whether they ‘defaulted’ or not. 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - 3.8.2
+- Pandas - 1.1.0
+- Seaborn - 0.12.2
+- Matplotlib - 3.2.1
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+## Conclusions
+### Segmented univariate analysis result
+- Loan amount was greater for people who charged off.
+- People with less annual income have more chance of charge off. Half of people who defaulted have annual income b/w 37000 and 75000
+- Loans with higher interst rate leads to charge off. Half of fully paid loans are in 8.5 to 14 interest rate.
+- Lower debt to interest ratio have higher chances of full payback. Half of the fully paid loan have dti ratio between 8 and 18 percent
+- Higher credit utilization rate results in more chances of default. Half of the people who defaulted have this rate between 34 and 79.
+
+### Bivariate analysis
+- High percentage of defaults happen for Small business, renewable energy and educational loans.
+- Higher percentage of defaults happen in 60 months term.
+- Defaults are inversly proportional to the loan grade. Higher the grade, lesser the defaults. Pattern is similar for sub-grades with few exceptions.
+- Home ownership marked as Rent have slightly higher chance to default
+- People with verified income source have slightly higher chance to default.
+- Applicants from states Nevada, Florida, Missouri have higher chances of defaults
+- If home ownership is mortgage and loan amount is high, there is a higher chance of default.
+- As loan amount for small business increase, we have higher chances of default.
+
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- Concepts taught during EDA sessions came in handy for this real-world case study
 
 ## Contact
 Created by [@himachallad] - feel free to contact me!
 
 
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## License
+This project is open source.
