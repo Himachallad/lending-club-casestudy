@@ -20,20 +20,20 @@
 
 ## Conclusions
 ### Segmented univariate analysis result
-- Loan amount was greater for people who charged off.
-- People with less annual income have more chance of charge off. Half of people who defaulted have annual income b/w 37000 and 75000
-- Loans with higher interst rate leads to charge off. Half of fully paid loans are in 8.5 to 14 interest rate.
+- Higher loan amount were alloted to people who defaulted.
+- People with less annual income have more chance of defaulting. Half of people who defaulted have annual income b/w 37000 and 75000
+- Loans with higher interst rate lead to a default. Half of fully paid loans are in 8.5 to 14 interest rate.
 - Lower debt to interest ratio have higher chances of full payback. Half of the fully paid loan have dti ratio between 8 and 18 percent
-- Higher credit utilization rate results in more chances of default. Half of the people who defaulted have this rate between 34 and 79.
+- Higher credit utilization rate, results into more chances of a default. Half of the people who defaulted have this rate between 34 and 79.
 
 ### Bivariate analysis
-- High percentage of defaults happen for Small business, renewable energy and educational loans.
-- Higher percentage of defaults happen in 60 months term.
-- Defaults are inversly proportional to the loan grade. Higher the grade, lesser the defaults. Pattern is similar for sub-grades with few exceptions.
-- Home ownership marked as Rent have slightly higher chance to default
-- People with verified income source have slightly higher chance to default.
-- Applicants from states Nevada, Florida, Missouri have higher chances of defaults
-- If home ownership is mortgage and loan amount is high, there is a higher chance of default.
+- High percentage of defaults happen for the small business, renewable energy and educational loans.
+- There are higher chances of a default happen in 60 months term.
+- Defaults are inversly proportional to the loan grade. Higher the grade, lesser the defaults.
+- People whose home ownership is rent have slightly higher chance of defaulting
+- People with a verified income source have slightly higher chance of defaulting.
+- Loan applicants from states Nevada, Florida, Missouri have higher chance of defaulting.
+- If home ownership is of mortgage type and loan amount is high, there is a higher chance of default.
 - As loan amount for small business increase, we have higher chances of default.
 
 
